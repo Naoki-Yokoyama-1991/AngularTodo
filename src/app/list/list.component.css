@@ -1,0 +1,23 @@
+p.done {
+  text-decoration: line-through;
+}
+
+p.hidden {
+  display: none;
+}
+
+.text {
+  font-size: 2rem;
+}
+
+.checkbox {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+.button {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: white;
+  border: 0.2rem splid black;
+  border-radius: 5px;
+}

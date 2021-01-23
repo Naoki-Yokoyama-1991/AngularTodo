@@ -1,0 +1,12 @@
+<div class="toolbar">
+  <button class="button" (click)="checkAll()">All Check</button>
+  <button class="button" (click)="deleteChecked()">Delete Check</button>
+  <button class="button" (click)="clearTodo()">Compleate Clear</button>
+  <button class="button" (click)="archive()">Archive</button>
+  <input
+    class="button"
+    type="text"
+    placeholder="filter "
+    (input)="filterTodos($event)"
+  />
+</div>

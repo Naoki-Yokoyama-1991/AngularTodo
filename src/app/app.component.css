@@ -1,0 +1,10 @@
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font: 400 1rem Robot, sans-serif;
+}
+
+.title {
+  font-size: 3rem;
+}
